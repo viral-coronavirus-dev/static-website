@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+body{
+    font-family: 'Asap';
+    font-size: 14px;
+    background-color: #354463 !important;
+    margin: 0;
+}
+header{
+    background-color: #fff;
+    height: 110px;
+    box-shadow: 0px 10px 45px -15px rgba(0,0,0,0.75);
+    border-bottom:4px solid #2dc289;
+}
+#donate-link, #app-link{
+    display: block;
+    float: right;
+    margin:25px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+#app-link{
+    padding:10px 15px;
+    border-radius: 30px;
+    color:#000000;
+    border: 3px solid #000000;
+}
+#app-link:hover{
+    background-color: #000000;
+    color:#ffffff;
+}
+#donate-link{
+    border:2px solid #2dc289;
+    padding:10px 15px;
+    border-radius: 30px;
+    color:#2dc289;
+}
+#donate-link:hover{
+    background-color: #2dc289;
+    padding:10px 15px;
+    border-radius: 30px;
+    color:#fff;
+}
+#logo{
+    float: left;
+    margin:28px 85px;
+}
+.container{
+    background-color:#adadad67 ;
+    text-align: center;
+}
+#issue-heading{
+    font-size:25px;
+    padding:4px 10px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color:#fff;
+    background-color: #3a3a3a;
+    position: absolute;
+    top: 25px;
+}
+#issue-text{
+    font-family: Comfortaa, sans-serif;
+    font-size: 40px;
+}
+#impact{
+    float: left;
+    text-align: right;
+    font-size: 140px;
+    font-family: 'Permanent Marker', cursive;
+    line-height: 120px;
+    text-transform: uppercase;
+}
+.white-box{
+    background-color: #fff;
+    padding:65px 25px 60px;
+    box-shadow: 0px 10px 45px -15px rgba(0,0,0,0.75);
+}
+.symptoms{
+    background-color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: 0px 10px 45px -15px rgba(0,0,0,0.75);
+}
+.symptoms>h1{
+    font-family: Asap;
+}
+.ruler{
+    width:50px;
+    height:3px;
+    background-color:#2dc289;
+    margin:0 auto 7px;
+}
+.symp-para{
+    font-size: 18px;
+    font-family: 'Asap';
+}
+.list-group-item{
+    font-weight: bold;
+    font-size: 18px;
+}
+#cautions{
+    text-align: justify;
+}
+code{
+    color:#20815c !important;
+    font-family: 'Asap',sans-serif !important;
+    font-size: 18px !important;
+}
+.box-head{
+    position: absolute;
+    top:-25px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 30px;
+    padding:4px 10px;
+    background-color: #2dc289;
+}
+.boxes{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    border:2px solid #ffffff;
+}
+.boxes:hover{
+    opacity: 1;
+}
+footer{
+    height:auto;
+    background-color: #f4fffb;
+    margin:0px;
+    padding:15px 25px;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    border-top: 4px solid #2dc289;
+}
+.contain{
+    display: inline;
+}
+.footer-row{
+    display:flex;
+    text-align: center;
+}
+.footer-col{
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-flood-text{
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style: none;
+}
+.footer-col>ul>li{
+    text-align: left;
+    font-size: 18px;
+}
+.footer-col>ul>li>a{
+    text-decoration: none !important;
+    color: #000000;
+}
+.footer-ruler{
+    width:80px;
+    height:3px;
+    background-color:#00945b;
+    margin:0 auto 7px;
+}
+.contain>img{
+    margin-bottom: 20px;
+}
+.text-block{
+    text-align: left;
+}
+.footer-heading{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.footer-flood-text{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    line-height: 40px;
+}
+.comp{
+    background-color: #2dc289;
+    font-size: 16px;
+    font-family: 'Asap',serif;
+    width: 100% !important;
+    font-weight: 600;
+    margin:5px 0 0 0;
+    padding:5px;
+}
+@media (max-width: 995px){
+    #impact{
+        font-size: 80px;
+        line-height: 70px;
+    }
+    #issue-text{
+        font-size: 25px;
+    }
+}
+@media (max-width: 767px){
+    #impact{
+        display:none;
+    }
+    #issue-text{
+        font-size: 40px;
+    }
+    #donate-link{
+        display:none;
+    }
+    #app-link{
+        padding:5px 7px;
+        font-size:16px ;
+    }
+    .footer-flood-text{
+        display: none;
+    }
+    .footer-heading{
+        font-size: 16px;
+    }
+    footer{
+        font-size: 15px;
+    }
+    #logo{
+        margin: 28px 25px;
+    }
+}
