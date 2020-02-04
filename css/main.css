@@ -196,6 +196,10 @@ ul{
     margin:5px 0 0 0;
     padding:5px;
 }
+#footer-brand{
+    color: #ffffff;
+    text-decoration: none;
+}
 @media (max-width: 995px){
     #impact{
         font-size: 80px;
