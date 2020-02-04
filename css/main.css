@@ -39,6 +39,23 @@ header{
     border-radius: 30px;
     color:#2dc289;
 }
+#hidden-donate-link{
+    display:none;
+    text-decoration: none;
+    margin:15px auto 15px auto;
+    border:2px solid #ffffff;
+    background-color: #2dc289;
+    padding:10px 25px;
+    border-radius: 30px;
+    color:#000000;
+}
+#hidden-donate-link:hover{
+    background-color: #ffffff;
+    border:2px solid #000000;
+    padding:10px 25px;
+    border-radius: 30px;
+    color:#000000;
+}
 #donate-link:hover{
     background-color: #2dc289;
     padding:10px 15px;
@@ -217,11 +234,15 @@ ul{
         font-size: 40px;
     }
     #donate-link{
-        display:none;
+        padding:5px 7px;
+        font-size:16px ;
     }
     #app-link{
         padding:5px 7px;
         font-size:16px ;
+    }
+    #donate-link, #app-link{
+        margin:20px 20px;
     }
     .footer-flood-text{
         display: none;
@@ -236,7 +257,13 @@ ul{
         margin: 28px 25px;
     }
 }
-@media (max-width: 435px){
+@media (max-width: 440px){
+    #donate-link{
+        display:none;
+    }
+    #hidden-donate-link{
+        display:block;
+    }
     .footer-row{
         display: block;
     }
